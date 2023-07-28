@@ -74,9 +74,17 @@ footer h4{
     color: brown;
 }
 
+.numero-contacto{
+    display: inline block;
+}
+
 
 @media screen and (max-width:480px){ 
-     h1{
+    body{
+        font-size: 300%;
+    }
+
+    h1{
         text-align: center;
     }
 
@@ -113,9 +121,13 @@ footer h4{
         width: auto;
     }
 } 
-
+ 
 
 @media screen and (max-width:767px){ 
+    body{
+        font-size: 300%;
+    }
+
     h1{
        text-align: center;
    }
